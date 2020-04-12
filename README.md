@@ -13,7 +13,7 @@ Project is created with:
 -  Started with City Module and WeatherDetail Module ( Using Viper Structure) 
 -  Created diff interface and presenters for both modules  
 -  Started Ui With StoryBoard
--  Then Started with api parse operation using APi delegates ( Use URLSession as of now ) 
+-  Then Started with api operation using APi delegate ( Use URLSession as of now ) 
 -  Handle Data using Interface ( protocol )
 -  Then Parse it to presenter and apply changes 
 
