@@ -7,20 +7,18 @@
 //
 
 import UIKit
-typealias JSONDictionary = [String:String]
 
 class ApiHandler: NSObject {
     
     enum requestType: UInt {
-        case getAirportJsonData
+        case getWeatherForecastData
     }
     
-    // MARK: - downloadAirportLlist Api
-    public class func downloadAirportLlist(_ requestType : UInt , httpmethod : String , andPostparameters : String , Delegate : DataDownloadCompletionDelegate)  {
-        URLSession.shared.dataTask(with: URL(string: "https://gist.githubusercontent.com/tdreyno/4278655/raw/7b0762c09b519f40397e4c3e100b097d861f5588/airports.json")!) { (data, response, error) -> Void in
+    // MARK: - downloadWeather Api
+    public class func downloadWeatherForecast(_ requestType : UInt , httpmethod : String , lat : String , long : String , Delegate : DataDownloadCompletionDelegate)  {
+        let stringToAppend = API.BaseURL + String(format: "%@%@%@%@", "&lat=",lat,"&lon=",long)
+        URLSession.shared.dataTask(with: URL(string: stringToAppend)!) { (data, response, error) -> Void in
                 Delegate.dataDownloadCompleted(error: error, data: data!)
             }.resume()
     }
-    
-
 }

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD0166082440ED5B006D5C91 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0166062440ED5B006D5C91 /* ApiHandler.swift */; };
 		AD0166092440ED5B006D5C91 /* DataDownloadCompletionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0166072440ED5B006D5C91 /* DataDownloadCompletionDelegate.swift */; };
 		AD01660F2440F420006D5C91 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01660E2440F420006D5C91 /* CurrentWeather.swift */; };
 		AD016611244172F6006D5C91 /* CityInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD016610244172F6006D5C91 /* CityInterector.swift */; };
@@ -36,6 +35,7 @@
 		AD8A5FA12442C6610054CBB2 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8A5FA02442C6610054CBB2 /* Reachability.swift */; };
 		AD8A5FA32442C9260054CBB2 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8A5FA22442C9260054CBB2 /* UIViewController.swift */; };
 		AD8A5FA62442D6950054CBB2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8A5FA52442D6950054CBB2 /* Location.swift */; };
+		AD8A5FA82442FE510054CBB2 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8A5FA72442FE510054CBB2 /* ApiHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AD0166062440ED5B006D5C91 /* ApiHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiHandler.swift; path = "../../../../../Downloads/ChinkalDemo-master 3/ChinkalDemo/ApiHandler/ApiHandler.swift"; sourceTree = "<group>"; };
 		AD0166072440ED5B006D5C91 /* DataDownloadCompletionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDownloadCompletionDelegate.swift; sourceTree = "<group>"; };
 		AD01660E2440F420006D5C91 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		AD016610244172F6006D5C91 /* CityInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityInterector.swift; sourceTree = "<group>"; };
@@ -91,6 +90,7 @@
 		AD8A5FA02442C6610054CBB2 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		AD8A5FA22442C9260054CBB2 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		AD8A5FA52442D6950054CBB2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		AD8A5FA72442FE510054CBB2 /* ApiHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,7 +385,7 @@
 		AD4612FA2440EB1300183122 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				AD0166062440ED5B006D5C91 /* ApiHandler.swift */,
+				AD8A5FA72442FE510054CBB2 /* ApiHandler.swift */,
 				AD0166072440ED5B006D5C91 /* DataDownloadCompletionDelegate.swift */,
 			);
 			path = API;
@@ -571,12 +571,12 @@
 				AD4612AB24409D3000183122 /* CityViewController.swift in Sources */,
 				AD0166132441732A006D5C91 /* CityPresenter.swift in Sources */,
 				AD01661F2441ABCC006D5C91 /* WeatherDetailInterector.swift in Sources */,
-				AD0166082440ED5B006D5C91 /* ApiHandler.swift in Sources */,
 				AD4612F32440B55700183122 /* CityCollectionViewCell.swift in Sources */,
 				AD0166252441AC1A006D5C91 /* WeatherDetailInterfaces.swift in Sources */,
 				AD8A5F992441F9110054CBB2 /* LocationManager.swift in Sources */,
 				AD8A5FA32442C9260054CBB2 /* UIViewController.swift in Sources */,
 				AD8A5F9E24423A480054CBB2 /* MyWeather.swift in Sources */,
+				AD8A5FA82442FE510054CBB2 /* ApiHandler.swift in Sources */,
 				AD8A5FA12442C6610054CBB2 /* Reachability.swift in Sources */,
 				AD4612A724409D3000183122 /* AppDelegate.swift in Sources */,
 				AD01660F2440F420006D5C91 /* CurrentWeather.swift in Sources */,
