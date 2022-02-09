@@ -6,7 +6,7 @@ This is the basic Weather api parsing demo with VIPER structure
 Project is created with:
 * Swift: 5
 * Xcode: 11.3.1
-* Ios : 10+
+* iOS : 10+
 	
 ## Detail explanation
 
